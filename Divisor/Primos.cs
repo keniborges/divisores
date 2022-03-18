@@ -19,9 +19,9 @@ namespace Divisor
                         break;
                 }
                 if(qtd == 2)
-                    retorno += " " + Convert.ToString(i);
+                    retorno += Convert.ToString(i) + " ";
             }
-            return retorno;
+            return retorno.TrimEnd();
         }
     }
 }

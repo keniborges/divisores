@@ -11,9 +11,9 @@ namespace Divisor
             for (int i = 1; i <= valor; i++)
             {
                 if (valor % i == 0)
-                    retorno += " " + Convert.ToString(i);
+                    retorno += Convert.ToString(i) + " ";
             }
-            return retorno;
+            return retorno.TrimEnd();
         }
     }
 }
